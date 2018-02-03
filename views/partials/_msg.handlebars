@@ -1,0 +1,13 @@
+{{#if success_msg}}
+<div class="alert alert-success">
+    {{!-- Access success_msg global variable deifned in app.js --}}
+    {{success_msg}}
+</div>
+{{/if}}
+
+{{#if error_msg}}
+<div class="alert alert-danger">
+    {{!-- Access error_msg global variable deifned in app.js --}}
+    {{error_msg}}
+</div>
+{{/if}}
